@@ -28,4 +28,4 @@ Be sure to change the driver name to the driver that you are using on your own c
 - [Martin Popper](https://github.com/martinpopper)
 - [Owen Ostermann](https://github.com/oostermann10)
 - [Christian Trites](https://github.com/ChristianTrites)
-- Filip Karamanov
+- [Filip Karamanov](https://github.com/FilipKaramanov)
