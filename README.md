@@ -32,7 +32,8 @@ threading: a module for creating and managing threads in Python, which can be us
 1. On line 54 of the script, replace '/Users/owenostermann/Desktop/COMP 3380/Project/f1db_csv/' with the path name of where the CSV files folder is stored on your own computer. Leave the `(+name+'.csv')` in place, as it will allow all of the CSV files to be read in from the f1db_csv folder.
 
 
-2. Connect to the database in your terminal and run the SQL command `CREATE DATABASE f1;`
+2. Connect to the local database in your terminal and run the SQL command 
+   - `CREATE DATABASE f1;`
    
 3. On line 397 of the script, replace (server = "192.168.100.11,32768") with your own database server name where you created the f1 database. Enter your username and password for your local database server on your own device. If you do not have a database username and password, remove this from the connection string in line 388.
    `(conn = py.connect('DRIVER='+driver+';SERVER='+server+';DATABASE='+database+';ENCRYPT=yes;UID='+username+';PWD='+password+';TrustServerCertificate=yes;'))`
@@ -40,11 +41,20 @@ threading: a module for creating and managing threads in Python, which can be us
    `(conn = py.connect('DRIVER='+driver+';SERVER='+server+';DATABASE='+database+';ENCRYPT=yes;TrustServerCertificate=yes;'))`
 Be sure to change the driver name to the driver that you are using on your own computer.
 
-4. Once all the steps are complete, the script should create the database on your computer where you specified the connection. The files will be populated now and you can run the interface to get the output from the SQL queries.
+4. Once all the steps are complete, you can run the py file and you will have the database locally populated from the csv files. 
+   
+   the script should create the database on your computer where you specified the connection. The files will be populated now and you can run the interface to get the output from the SQL queries.
 
-### Editing the log in button.py file
-1. steps here
-2. ... 
+## Editing the log in button.py file
+1. On line 140, ... 
+
+## Running the program
+1. Run `log in button.py`
+3. Log in to the database with username: `admin` and password: `1234`
+4. Copy and paste queries from `samples.sql` into the text box
+   1. Keep repeating this process until you are satisfied
+
+
 
 ## Contributions
 - [Martin Popper](https://github.com/martinpopper)
