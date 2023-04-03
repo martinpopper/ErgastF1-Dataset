@@ -42,6 +42,10 @@ Be sure to change the driver name to the driver that you are using on your own c
 
 4. Once all the steps are complete, the script should create the database on your computer where you specified the connection. The files will be populated now and you can run the interface to get the output from the SQL queries.
 
+### Editing the log in button.py file
+1. steps here
+2. ... 
+
 ## Contributions
 - [Martin Popper](https://github.com/martinpopper)
 - [Owen Ostermann](https://github.com/oostermann10)
