@@ -27,6 +27,7 @@ threading: a module for creating and managing threads in Python, which can be us
 
 
 ## Instructions
+### Editing the f1_database_creation.py file
 
 1. On line 54 of the script, replace '/Users/owenostermann/Desktop/COMP 3380/Project/f1db_csv/' with the path name of where the CSV files folder is stored on your own computer. Leave the `(+name+'.csv')` in place, as it will allow all of the CSV files to be read in from the f1db_csv folder.
 
@@ -39,7 +40,7 @@ threading: a module for creating and managing threads in Python, which can be us
    `(conn = py.connect('DRIVER='+driver+';SERVER='+server+';DATABASE='+database+';ENCRYPT=yes;TrustServerCertificate=yes;'))`
 Be sure to change the driver name to the driver that you are using on your own computer.
 
-1. Once all the steps are complete, the script should create the database on your computer where you specified the connection. The files will be populated now and you can run the interface to get the output from the SQL queries.
+4. Once all the steps are complete, the script should create the database on your computer where you specified the connection. The files will be populated now and you can run the interface to get the output from the SQL queries.
 
 ## Contributions
 - [Martin Popper](https://github.com/martinpopper)
