@@ -46,7 +46,7 @@ Be sure to change the driver name to the driver that you are using on your own c
    the script should create the database on your computer where you specified the connection. The files will be populated now and you can run the interface to get the output from the SQL queries.
 
 ### Editing the log in button.py file
-1. On line 140, ... 
+1. On line 140, blah blach blah
 
 ## Running the program
 1. Run `log in button.py`
