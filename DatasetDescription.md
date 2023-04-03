@@ -8,7 +8,7 @@ COMP 3380 A01 Group 27
 
 Professor: Anifat Olawoyin 
 
-Data from:[ http://ergast.com/mrd/db/ ](http://ergast.com/mrd/db/)
+Data from: [Ergast](http://ergast.com/mrd/db/)
 
 ## Contributers
 - [Martin Popper](https://github.com/martinpopper)
