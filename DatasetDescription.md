@@ -1,10 +1,15 @@
 
 # Ergast F1 Dataset 
 February 28, 2023 
+
 University of Manitoba 
+
 COMP 3380 A01 Group 27  
+
 Professor: Anifat Olawoyin 
+
 Data from:[ http://ergast.com/mrd/db/ ](http://ergast.com/mrd/db/)
+
 ## Contributers
 - [Martin Popper](https://github.com/martinpopper)
 - [Owen Ostermann](https://github.com/oostermann10)
