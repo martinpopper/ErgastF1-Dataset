@@ -57,7 +57,7 @@ Be sure to change the driver name to the driver that you are using on your own c
 1. Run `log in button.py`
 2. Log in to the database with username: `admin` and password: `1234`
 3. Copy and paste queries from `samples.sql` into the text box. Once you copy and paste a query into the run box, copy the next query in its place and hit the run button to get the next queries output.
-4. Try some commands like `CREATE TABLE newTable;` or `DELETE TABLE Circuit`. The interface will not let you execute these commands. As an analyst you do not have the ability to chnage the structure of the database, you only are able to get information from the database.
+4. Try some commands like `CREATE TABLE newTable;` or `DELETE TABLE Circuit;`. The interface will not let you execute these commands. As an analyst you do not have the ability to chnage the structure of the database, you only are able to get information from the database.
 5. Keep repeating this process until you are satisfied. 
 
 
