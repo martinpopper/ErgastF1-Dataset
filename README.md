@@ -53,13 +53,14 @@ Be sure to change the driver name to the driver that you are using on your own c
    the script should create the database on your computer where you specified the connection. The files will be populated now and you can run the interface to get the output from the SQL queries.
 
 ### Editing the log in button.py file
-1. On line 140, hola
+1. On line 140
 
 ## Running the program
 1. Run `log in button.py`
-3. Log in to the database with username: `admin` and password: `1234`
-4. Copy and paste queries from `samples.sql` into the text box
-   1. Keep repeating this process until you are satisfied
+2. Log in to the database with username: `admin` and password: `1234`
+3. Copy and paste queries from `samples.sql` into the text box. Once you copy and paste a query into the run box, copy the next query in its place and hit the run button to get the next queries output.
+4. Try some commands like `CREATE TABLE newTable;` or `DELETE TABLE Circuit`. The interface will not let you execute these commands. As an analyst you do not have the ability to chnage the structure of the database, you only are able to get information from the database.
+5. Keep repeating this process until you are satisfied. 
 
 
 
