@@ -37,7 +37,7 @@ subprocess: a module that allows you to spawn new processes, connect to their in
 
 1. On line 54 of the script, replace '/Users/owenostermann/Desktop/COMP 3380/Project/f1db_csv/' with the path name of where the CSV files folder is stored on your own computer. Leave the `(+name+'.csv')` in place, as it will allow all of the CSV files to be read in from the f1db_csv folder.
 
-2. Connect to the local database in your terminal and run the SQL command 
+2. Connect to the local database in your terminal or in your database managment system and run the SQL command 
    - `CREATE DATABASE f1;`
    
 3. On line 397 of the script, replace (server = "192.168.100.11,32768") with your own database server name where you created the f1 database. Enter your username and password for your local database server on your own device. If you do not have a database username and password, remove this from the connection string in line 388.
