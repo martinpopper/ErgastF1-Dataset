@@ -48,10 +48,10 @@ Be sure to change the driver name to the driver that you are using on your own c
 
 4. Once all the steps are complete, you can run the py file and you will have the database locally populated from the csv files. 
    
-   the script should create the database on your computer where you specified the connection. The files will be populated now and you can run the interface to get the output from the SQL queries.
+   the script should create the tables in the f1 database on your computers database server where you specified the connection string. The tables will be populated now and you can run the interface to get the output from the SQL queries. Based on the large amount of data, the f1_database_creation.py may take a bit of time to execute depending on the abilities of your computer. But in the terminal when you run the file there is an animation that tells you the status of the insertion and populating of the tables. Just watch the animation and it will tell you when it is complete. Once it says "successfully closed to the database" the process is complete.
 
 ### Editing the log in button.py file
-1. On line 140
+1. On line 140 in the interface file (log in button.py) the GUI needs to connect to the database in order to execute the SQL statements. You will need to do as above in step 3. You need to connect to your local server and use your serves username and password (if it has one) and chnage the driver. Once this is modfied in the code, the interface can be run.
 
 ## Running the program
 1. Run `log in button.py`
@@ -59,7 +59,6 @@ Be sure to change the driver name to the driver that you are using on your own c
 3. Copy and paste queries from `samples.sql` into the text box. Once you copy and paste a query into the run box, copy the next query in its place and hit the run button to get the next queries output.
 4. Try some commands like `CREATE TABLE newTable;` or `DELETE TABLE Circuit`. The interface will not let you execute these commands. As an analyst you do not have the ability to chnage the structure of the database, you only are able to get information from the database.
 5. Keep repeating this process until you are satisfied. 
-
 
 
 ## Contributions
