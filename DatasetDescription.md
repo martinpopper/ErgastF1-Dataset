@@ -113,7 +113,7 @@ Relationships
 
 The ER diagram is displayed on the page below:  
 
-![](F1 EER Diagram - Database Project P1 Final.pdf) 
+![](F1 EER Diagram - Database Project P1 Final.jpeg) 
 
 Now, we need to translate this diagram to a relational schema.  
 
