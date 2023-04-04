@@ -26,11 +26,11 @@ threading: a module for creating and managing threads in Python, which can be us
 - `pip install threading`
 
 customtikinter: a custom-made module that extends or modifies the functionality of the built-in "tkinter" GUI toolkit in Python.
-- 'pip install customtkinter'
-- 'pip install tkinter'
+- `pip install customtkinter`
+- `pip install tkinter`
 
 subprocess: a module that allows you to spawn new processes, connect to their input/output/error pipes, and obtain their return codes.
-- 'pip install subprocess'
+- `pip install subprocess`
 
 
 ## Instructions
