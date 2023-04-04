@@ -25,6 +25,13 @@ itertools: a module for creating and manipulating iterators, which are objects t
 threading: a module for creating and managing threads in Python, which can be used for concurrent programming. 
 - `pip install threading`
 
+customtikinter: a custom-made module that extends or modifies the functionality of the built-in "tkinter" GUI toolkit in Python.
+- 'pip install customtkinter'
+- 'pip install tkinter'
+
+subprocess: a module that allows you to spawn new processes, connect to their input/output/error pipes, and obtain their return codes.
+- 'pip install subprocess'
+
 
 ## Instructions
 ### Editing the f1_database_creation.py file
