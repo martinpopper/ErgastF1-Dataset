@@ -32,12 +32,10 @@ customtikinter: a custom-made module that extends or modifies the functionality 
 subprocess: a module that allows you to spawn new processes, connect to their input/output/error pipes, and obtain their return codes.
 - `pip install subprocess`
 
-
 ## Instructions
 ### Editing the f1_database_creation.py file
 
 1. On line 54 of the script, replace '/Users/owenostermann/Desktop/COMP 3380/Project/f1db_csv/' with the path name of where the CSV files folder is stored on your own computer. Leave the `(+name+'.csv')` in place, as it will allow all of the CSV files to be read in from the f1db_csv folder.
-
 
 2. Connect to the local database in your terminal and run the SQL command 
    - `CREATE DATABASE f1;`
