@@ -39,7 +39,7 @@ subprocess: a module that allows you to spawn new processes, connect to their in
 
 2. Connect to the local database server on your computer in your terminal or in your database managment system and run the SQL command 
    - `CREATE DATABASE f1;`
-so that you have ab empty database named f1 on your server. This allows for the python file to connect to that datbase on your server through the connection string and create tables and populate those tables.
+so that you have an empty database named f1 on your server. This allows for the python file to connect to that datbase on your server through the connection string and create tables and populate those tables.
    
 3. On line 397 of the script, replace (server = "192.168.100.11,32768") with your own database server name where you created the f1 database. Enter your username and password for your local database server on your own device. If you do not have a database username and password, remove this from the connection string in line 388.
    `(conn = py.connect('DRIVER='+driver+';SERVER='+server+';DATABASE='+database+';ENCRYPT=yes;UID='+username+';PWD='+password+';TrustServerCertificate=yes;'))`
