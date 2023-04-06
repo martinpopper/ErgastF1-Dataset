@@ -20,3 +20,22 @@ FROM Races
 JOIN Circuit ON Races.circuitId = Circuit.circuitId 
 GROUP BY Circuit.country 
 ORDER BY num_races DESC;
+
+-- Get the number of wins and total points for each driver
+SELECT Drivers.forename, Drivers.surname, COUNT(Driver_Standings.wins) AS wins, SUM(Driver_Standings.points) AS total_points
+FROM Drivers
+INNER JOIN Driver_Standings ON Drivers.driverId = Driver_Standings.driverId
+GROUP BY Drivers.driverId;
+
+--Get the average duration of pitstops for each race
+SELECT Races.name, AVG(Pitstop.duration) AS avg_duration
+FROM Races
+LEFT OUTER JOIN Pitstop ON Races.raceId = Pitstop.raceId
+GROUP BY Races.raceId;
+
+--Get the constructor standings for a particular race:
+SELECT Constructor.name, Constructor_Standing.points, Constructor_Standing.wins
+FROM Constructor_Standing
+INNER JOIN Constructor ON Constructor_Standing.constructorId = Constructor.constructorId
+WHERE Constructor_Standing.raceId = [raceId]
+ORDER BY Constructor_Standing.points DESC;
