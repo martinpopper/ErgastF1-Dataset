@@ -1,5 +1,11 @@
 # Formula 1 Dataset - README
 
+## Contributions
+- [Martin Popper](https://github.com/martinpopper)
+- [Owen Ostermann](https://github.com/oostermann10)
+- [Christian Trites](https://github.com/ChristianTrites)
+- [Filip Karamanov](https://github.com/FilipKaramanov)
+
 This dataset includes information on Formula 1 races, drivers, teams, and results. In order to use this dataset in a Python script, please follow the instructions below:
 ## Prerequisites
 There are a couple packages you will need to install in order to run. To install each one, open your command terminal, and copy each command in.
@@ -60,10 +66,3 @@ Be sure to change the driver name to the driver that you are using on your own c
 3. Copy and paste queries from `samples.sql` into the text box. Once you copy and paste a query into the run box, copy the next query in its place and hit the run button to get the next queries output.
 4. Try some commands like `CREATE TABLE newTable;` or `DELETE TABLE Circuit;`. The interface will not let you execute these commands. As an analyst you do not have the ability to chnage the structure of the database, you only are able to get information from the database.
 5. Keep repeating this process until you are satisfied. 
-
-
-## Contributions
-- [Martin Popper](https://github.com/martinpopper)
-- [Owen Ostermann](https://github.com/oostermann10)
-- [Christian Trites](https://github.com/ChristianTrites)
-- [Filip Karamanov](https://github.com/FilipKaramanov)
